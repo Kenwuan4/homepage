@@ -283,3 +283,7 @@ For expereince and additional info
   .additional-info__languages-item {
     color: var(--secondary-text-color);
   }
+
+  .hidden{
+    display: none;
+  }
