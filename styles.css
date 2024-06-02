@@ -174,9 +174,16 @@ For intro and skills
     margin-bottom: 15px;
 }
 
+.skills__subtitle{
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 10px;
+}
+
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    margin-bottom: 15px;
 }
 
 /*
