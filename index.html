@@ -86,7 +86,22 @@
                 <div class="resume__block">
                     <div class="skills">
                         <h3 class="skills__header">Skills</h3>
+                        <h4 class="skills_subtitle"> Soft Skills </h4>
                         <p class="skills__text">Problem solving, Continuous Learning, Adaptability, Collective Property
+                        </p>
+
+                        <h4 class="skills_subtitle"> Technical Skills </h4>
+                        <h5 class="skills_subtitle"></h5> Backend</h5>
+                        <p class="skills__text"> Java, Python, Spring boog, FastAPI
+                        </p>
+                        <h5 class="skills_subtitle"></h5> Frontend</h5>
+                        <p class="skills__text"> Angular, Bootstap
+                        </p>
+                        <h5 class="skills_subtitle"></h5> Data Bases</h5>
+                        <p class="skills__text"> PostgreSQL. MongoDB
+                        </p>
+                        <h5 class="skills_subtitle"></h5> Miscellaneous</h5>
+                        <p class="skills__text"> Scrum , Cloud Concepts
                         </p>
                     </div>
                 </div>
@@ -113,6 +128,25 @@
                                         <li>Dashboards creation</li>
                                         <li>Automated processes</li>
                                         <li>Design and implementation of a new SOX control</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <div class="experiences__company">
+                                <div class="experiences__company-header">
+                                    <span class="experiences__company-header-durability">August 2023 - November
+                                        2023</span>
+                                    <h3 class="experiences__company-header-name">Pontificia Universidad Javeriana</h3>
+                                </div>
+
+                                <div class="experiences__company-project">
+                                    <span class="experiences__company-project-role"> Backend Developer</span>
+                                    <h3 class="experiences__company-project-name"> Primer encuentro binacional Colombia
+                                        - Costa Rica</h3>
+                                    <ul class="experiences__company-project-responsibilities">
+                                        <li>Data processing</li>
+                                        <li>Automated personalized recommendations</li>
                                     </ul>
                                 </div>
                             </div>
@@ -172,18 +206,117 @@
                             <p class="additional-info__education-university-name">Pontifica universidad Javeriana</p>
                         </div>
                     </div>
-
                     <div class="additional-info__languages">
                         <h3 class="additional-info__languages-header">Languages</h3>
                         <p class="additional-info__languages-item">English</p>
                         <p class="additional-info__languages-item">Spanish</p>
                     </div>
+
+                    <div class="additional-info__education">
+                        <h3 class="additional-info__education-header">Volunteering</h3>
+                        <div class="additional-info__education-university">
+                            <span class="additional-info__education-university-durability"> 2022 </span>
+                            <p class="additional-info__education-university-name">Colegio Julio Flores</p>
+                            <p> I helped in the design of a study plan
+                                for bachelor's with zero knowledge
+                                in programming. I taught and
+                                followed this study plan.</p>
+                        </div>
+                    </div>
+
+                    <div class="additional-info__education">
+                        <h3 class="additional-info__education-header">Research and Publications</h3>
+                        <div class="additional-info__education-university">
+                            <span class="additional-info__education-university-durability"> 2023 </span>
+                            <a href="https://link.springer.com/chapter/10.1007/978-3-031-47372-2_11" target="_blank">
+                                <h3 class="additional-info__education-university-speciality"> Automatic translation of
+                                    text and
+                                    audio to Colombian sign language
+                                </h3>
+                            </a>
+                        </div>
+                    </div>
+                    <button id="more__info__button" onclick="toggleSection()"> More info</button>
                 </div>
             </div>
+        </div>
 
+        <div id="personal__section" class="hidden">
+            <div class="resume">
+                <div class="container">
+                    <div class="resume__block">
+                        <div class="intro">
+                            <div class="intro__icon-wrapper">
+                                <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                              24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                              26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                              48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                              64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0
+                              103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0
+                              48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
+                                </svg>
+                            </div>
+                            <p class="intro_text"> We can only be truly successful at something we are willing to fail
+                                at
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="resume__block">
+                        <div class="block__column__container">
+                            <div class="column">
+                                <p>
+
+                                    Recently, I was thinking that every single person on earth has their own way of
+                                    creating art. For me, apart from coding, cooking is my art form, where I can
+                                    experiment with different
+                                    things and express my feelings towards someone.
+
+                                </p>
+                                <p>
+                                    I'm open to new experiences. Thanks to this openness, I've discovered new hobbies I
+                                    never imagined I would enjoy, like indoor climbing and hiking. From these
+                                    activities, I've learned a lot, such as being patient, improving from mistakes, and
+                                    the importance of taking small steps in the pursuit of a goal.
+                                </p>
+                                <p>
+
+                                    I love watching movies, series, and anime of all kinds, but my favorite genre is
+                                    thriller, as I enjoy thinking about how the plot will develop until the end. I also
+                                    enjoy classical music, and one of my dreams is to go to Europe and watch an opera
+                                    performance.
+
+                                </p>
+
+                                <p id="easter_egg">
+                                    PS: Somewhere in this home page I left a link for you to know a beautiful place here in Colombia.  
+                                </p>
+
+
+                            </div>
+                            <div class="column">
+                                <div class="img__container">
+                                    <img class="ajusted__img" src="assets/mountain.jpg"
+                                    alt="A cool picture i took while hiking in Peru">
+
+                                        <p class="photo__description"> A cool picture i took while hiking in Peru</p>
+                                    
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
         </div>
     </main>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
