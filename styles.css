@@ -174,9 +174,16 @@ For intro and skills
     margin-bottom: 15px;
 }
 
+.skills__subtitle{
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 10px;
+}
+
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    margin-bottom: 15px;
 }
 
 /*
@@ -275,4 +282,53 @@ For expereince and additional info
   
   .additional-info__languages-item {
     color: var(--secondary-text-color);
+  }
+
+  /*
+  For general porpuses inside blocks
+  */
+  .hidden{
+    display: none;
+  }
+
+  .block__column__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .column{
+    flex: 1; 
+    padding: 10px;
+    text-align: left;
+  }
+
+  .ajusted__img{
+    width: 100%;
+    align-items: center;
+  }
+
+  button{
+    background-color: transparent;
+    border: none;
+    color: inherit;
+  }
+
+  #more__info__button{
+    font-style: italic;
+  }
+
+  #easter_egg{
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  .img__container{
+    position: relative;
+    display: inline-block;
+  }
+
+  .photo__description{
+    font-size: 14px;
+    
   }
